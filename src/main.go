@@ -1,8 +1,8 @@
 package main
 
-import "fmt"
 import u "github.com/esequielvirtuoso/gittests/src/utils"
 
 func main() {
-	fmt.Println(u.ConvBoolToStr(true))
+	u.PrintVars("Boolean",u.ConvBoolToStr(true))
+	u.PrintVars("Integer",u.ConvIntToBool(1))
 }

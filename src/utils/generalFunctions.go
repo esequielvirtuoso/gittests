@@ -6,3 +6,11 @@ func ConvBoolToStr(value bool) string {
 	}
 	return "F"
 }
+
+func ConvIntToBool(value int) bool {
+	if value == 0 {
+		return false
+	} else {
+		return true
+	}
+}
