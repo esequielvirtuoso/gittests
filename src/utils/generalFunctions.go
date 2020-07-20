@@ -6,3 +6,10 @@ func ConvBoolToStr(value bool) string {
 	}
 	return "F"
 }
+
+func ConvStrToBool(value string) bool {
+	if value == "T" {
+		return true
+	}
+	return false
+}
